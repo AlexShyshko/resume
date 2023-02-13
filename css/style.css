@@ -38,23 +38,11 @@ html {
 .header-wrapper,
 .footer-wrapper {
   display: flex;
+}
+
+.header-wrapper {
   height: 100vh;
 }
-
-/* ! Horizontal centering */
-
-/* .wrapper {
-  display: flex;
-  flex-direction: column;
-}
-.header-wrapper,
-.main,
-.footer-wrapper {
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-/* ! Horizontal centering */
 
 /*header*/
 
@@ -237,45 +225,6 @@ code {
   margin-bottom: 3vh;
 }
 
-/*footer*/
-
-.footer {
-  display: flex;
-  height: fit-content;
-  margin: auto 0;
-}
-
-.footer h3 {
-  font-family: Niconne;
-  font-size: 3em;
-  margin: 0 auto;
-}
-
-.date-year {
-  font-family: Niconne;
-  font-size: 3em;
-}
-
-.footer h4 {
-  font-family: Niconne;
-  font-size: 2em;
-}
-
-#about {
-  display: flex;
-  flex-direction: column;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.date-year {
-  align-self: flex-end;
-}
-
 .about-video {
   display: flex;
   flex-direction: column;
@@ -299,6 +248,20 @@ code {
   height: 100%;
   left: 0;
   top: 0;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  margin: auto 0;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.date-year {
+  font-family: Niconne;
+  font-size: 3em;
 }
 
 /*adaptive*/
