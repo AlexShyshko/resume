@@ -72,16 +72,20 @@ html {
   border-radius: 5vmin;
 }
 
-.name {
-  width: min-content;
-}
-
 .name,
 .menu h2 {
   margin: 1vh auto;
   font-family: TitilliumWeb;
-  font-size: 5vmin;
   text-transform: uppercase;
+}
+
+.menu h2 {
+  font-size: 5vmin;
+}
+
+.name {
+  width: fit-content;
+  text-align: center;
 }
 
 .contacts ul,
@@ -266,7 +270,7 @@ code {
 
 /*adaptive*/
 
-@media (max-width: 640px) {
+@media (max-width: 920px) {
   .header-wrapper {
     height: auto;
   }
